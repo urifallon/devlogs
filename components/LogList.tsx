@@ -13,7 +13,7 @@ export const LogList: React.FC<LogListProps> = ({ onSelectLog }) => {
 
     const fetchLogs = async () => {
         try {
-            const response = await fetch('http://localhost:3001/api/logs');
+            const response = await fetch('/api/logs');
             if (!response.ok) throw new Error('Failed to fetch logs');
             const data = await response.json();
             setLogs(data);

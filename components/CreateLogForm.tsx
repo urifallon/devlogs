@@ -28,7 +28,7 @@ export const CreateLogForm: React.FC<CreateLogFormProps> = ({ onSuccess }) => {
     setSubmitStatus('submitting');
 
     try {
-      const response = await fetch('http://localhost:3001/api/logs', {
+      const response = await fetch('/api/logs', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -16,19 +16,13 @@ A premium error tracking dashboard for local development.
 
 You need to run both the backend server (for saving logs) and the frontend.
 
-1. **Start the Backend Server**:
+1. **Start the Application**:
    ```bash
-   npm run server
+   npm start
    ```
-   This will start the API server on `http://localhost:3001`.
+   This will run both the backend and frontend concurrently.
 
-2. **Start the Frontend** (in a new terminal):
-   ```bash
-   npm run dev
-   ```
-   This will start the Vite dev server.
-
-3. Open your browser to the URL shown by Vite (usually `http://localhost:5173`).
+2. Open your browser to `http://localhost:3000`.
 
 ## Setup on Ubuntu 24.04
 

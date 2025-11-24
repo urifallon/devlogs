@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "1763972796099",
+    "timestamp": "2025-11-24T08:26:36.099Z",
+    "title": "Test Log via Proxy",
+    "project": "Web App",
+    "severity": "Low",
+    "tags": [
+      "Test"
+    ],
+    "description": "Testing proxy save"
+  }
+]
